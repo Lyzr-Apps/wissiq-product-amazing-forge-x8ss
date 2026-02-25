@@ -524,8 +524,94 @@ function DataUploadTab({
     if (file) setKbFile(file)
   }, [setKbFile])
 
+  const fetchSampleFile = useCallback(async (filename: string): Promise<Blob> => {
+    // Try API route first (works in hosted/sandboxed environments)
+    const apiRes = await fetch(`/api/sample-data?file=${encodeURIComponent(filename)}`)
+    if (apiRes.ok) return await apiRes.blob()
+    // Fallback to static path
+    const staticRes = await fetch(`/sample-data/${filename}`)
+    if (staticRes.ok) return await staticRes.blob()
+    throw new Error('File not available')
+  }, [])
+
+  const handleDownloadSample = useCallback(async (filename: string) => {
+    try {
+      const blob = await fetchSampleFile(filename)
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = filename
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      URL.revokeObjectURL(url)
+    } catch {
+      // Last resort fallback
+      window.open(`/api/sample-data?file=${encodeURIComponent(filename)}`, '_blank')
+    }
+  }, [fetchSampleFile])
+
+  const handleLoadSampleCsv = useCallback(async () => {
+    try {
+      const blob = await fetchSampleFile('wissiq_financial_data.csv')
+      const file = new File([blob], 'wissiq_financial_data.csv', { type: 'text/csv' })
+      setCsvFile(file)
+    } catch {
+      // If all fetches fail, create a minimal test file
+      const fallbackCsv = 'date,category,subcategory,type,description,amount,department,vendor,invoice_number,payment_status,notes\n2024-01-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue,285000,Sales,,INV-2024-001,received,Enterprise clients\n'
+      const blob = new Blob([fallbackCsv], { type: 'text/csv' })
+      const file = new File([blob], 'wissiq_financial_data.csv', { type: 'text/csv' })
+      setCsvFile(file)
+    }
+  }, [setCsvFile, fetchSampleFile])
+
+  const handleLoadSampleKb = useCallback(async () => {
+    try {
+      const blob = await fetchSampleFile('wissiq_company_overview.txt')
+      const file = new File([blob], 'wissiq_company_overview.txt', { type: 'text/plain' })
+      setKbFile(file)
+    } catch {
+      const fallbackTxt = 'WissIQ Technologies Inc. — Company Financial Overview\nB2B SaaS company providing AI-powered financial intelligence solutions.\n'
+      const blob = new Blob([fallbackTxt], { type: 'text/plain' })
+      const file = new File([blob], 'wissiq_company_overview.txt', { type: 'text/plain' })
+      setKbFile(file)
+    }
+  }, [setKbFile, fetchSampleFile])
+
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className="space-y-6">
+      {/* Sample Test Files Banner */}
+      <Card className="bg-gradient-to-r from-primary/10 to-transparent border-primary/20">
+        <CardContent className="p-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-lg bg-primary/10">
+                <FiDatabase className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Sample Test Files Available</p>
+                <p className="text-xs text-muted-foreground">Pre-built financial data with anomalies and a company overview for testing all agents</p>
+              </div>
+            </div>
+            <div className="flex gap-2 flex-shrink-0">
+              <Button variant="secondary" size="sm" onClick={handleLoadSampleCsv} className="text-xs">
+                <FiBarChart2 className="w-3.5 h-3.5 mr-1.5" /> Load CSV to Upload
+              </Button>
+              <Button variant="secondary" size="sm" onClick={handleLoadSampleKb} className="text-xs">
+                <FiFileText className="w-3.5 h-3.5 mr-1.5" /> Load TXT to KB
+              </Button>
+              <Button variant="ghost" size="sm" onClick={() => handleDownloadSample('wissiq_financial_data.csv')} className="text-xs text-muted-foreground">
+                <FiDownload className="w-3.5 h-3.5 mr-1.5" /> CSV
+              </Button>
+              <Button variant="ghost" size="sm" onClick={() => handleDownloadSample('wissiq_company_overview.txt')} className="text-xs text-muted-foreground">
+                <FiDownload className="w-3.5 h-3.5 mr-1.5" /> TXT
+              </Button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* CSV Upload */}
       <Card className="bg-card/80 border-border/50">
         <CardHeader>
@@ -656,6 +742,7 @@ function DataUploadTab({
           </Button>
         </CardFooter>
       </Card>
+    </div>
     </div>
   )
 }
