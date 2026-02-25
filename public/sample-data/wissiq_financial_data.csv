@@ -1,0 +1,247 @@
+date,category,subcategory,type,description,amount,department,vendor,invoice_number,payment_status,notes
+2024-01-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,285000,Sales,,INV-2024-001,received,Enterprise clients - 42 accounts
+2024-01-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,128000,Sales,,INV-2024-002,received,Pro clients - 156 accounts
+2024-01-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,42000,Sales,,INV-2024-003,received,Starter clients - 340 accounts
+2024-01-01,Revenue,Professional Services,income,Onboarding & implementation services,48000,Professional Services,,INV-2024-004,received,3 enterprise implementations
+2024-01-01,Revenue,Licensing,income,On-premise license fee - Q1,65000,Sales,,INV-2024-005,received,Annual license renewal
+2024-01-01,Revenue,Other,income,Training workshops and certifications,8500,Professional Services,,INV-2024-006,received,2 workshops delivered
+2024-01-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,185000,Engineering,ADP Payroll,PAY-2024-001,paid,28 engineers
+2024-01-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,95000,Sales,ADP Payroll,PAY-2024-002,paid,18 sales reps
+2024-01-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,62000,Operations,ADP Payroll,PAY-2024-003,paid,12 admin staff
+2024-01-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,48000,HR,BlueCross,BEN-2024-001,paid,Health dental vision 401k
+2024-01-20,Expense,Infrastructure,expense,AWS cloud hosting,38500,Engineering,Amazon Web Services,AWS-2024-001,paid,Production and staging environments
+2024-01-20,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-001,paid,Annual plan monthly billing
+2024-01-20,Expense,Infrastructure,expense,Snowflake data warehouse,6800,Engineering,Snowflake Inc,SF-2024-001,paid,Compute and storage credits
+2024-01-22,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,28000,Marketing,Google LLC,GADS-2024-001,paid,Brand and category keywords
+2024-01-22,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,15000,Marketing,LinkedIn Corp,LI-2024-001,paid,Lead gen and awareness
+2024-01-22,Expense,Marketing & Sales,expense,Content marketing & SEO tools,4500,Marketing,SEMrush,SEM-2024-001,paid,Annual subscription
+2024-01-25,Expense,R&D,expense,Third-party API licenses,12000,Engineering,Various,API-2024-001,paid,OpenAI Twilio SendGrid
+2024-01-25,Expense,R&D,expense,Software development tools,8500,Engineering,JetBrains,JB-2024-001,paid,IDE licenses CI/CD tools
+2024-01-28,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-001,paid,Monthly lease payment
+2024-01-28,Expense,G&A,expense,Office supplies & equipment,3200,Operations,Staples,SUP-2024-001,paid,Monitors keyboards misc
+2024-01-28,Expense,G&A,expense,Legal & accounting fees,8500,Finance,Baker McKenzie,LEG-2024-001,paid,Quarterly retainer
+2024-01-30,Expense,G&A,expense,Business insurance,7200,Finance,Hartford Insurance,INS-2024-001,paid,E&O and D&O coverage
+2024-02-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,292000,Sales,,INV-2024-007,received,Enterprise clients - 43 accounts (+1 new)
+2024-02-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,134000,Sales,,INV-2024-008,received,Pro clients - 164 accounts (+8 new)
+2024-02-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,44500,Sales,,INV-2024-009,received,Starter clients - 352 accounts (+12 new)
+2024-02-01,Revenue,Professional Services,income,Onboarding & implementation services,52000,Professional Services,,INV-2024-010,received,4 enterprise implementations
+2024-02-01,Revenue,Licensing,income,Custom integration licensing,18000,Sales,,INV-2024-011,received,API premium access
+2024-02-01,Revenue,Other,income,Consulting & advisory,12000,Professional Services,,INV-2024-012,received,CFO advisory services
+2024-02-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,192000,Engineering,ADP Payroll,PAY-2024-004,paid,29 engineers (+1 new hire)
+2024-02-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,98000,Sales,ADP Payroll,PAY-2024-005,paid,19 sales reps (+1 new hire)
+2024-02-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,62000,Operations,ADP Payroll,PAY-2024-006,paid,12 admin staff
+2024-02-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,50500,HR,BlueCross,BEN-2024-002,paid,Health dental vision 401k
+2024-02-18,Expense,Infrastructure,expense,AWS cloud hosting,41200,Engineering,Amazon Web Services,AWS-2024-002,paid,Increased compute for new features
+2024-02-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-002,paid,Annual plan monthly billing
+2024-02-18,Expense,Infrastructure,expense,Snowflake data warehouse,7100,Engineering,Snowflake Inc,SF-2024-002,paid,Increased query volume
+2024-02-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,32000,Marketing,Google LLC,GADS-2024-002,paid,Expanded keyword targeting
+2024-02-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,18000,Marketing,LinkedIn Corp,LI-2024-002,paid,Increased budget for Q1 push
+2024-02-20,Expense,Marketing & Sales,expense,Industry conference sponsorship,25000,Marketing,SaaStr,CONF-2024-001,paid,SaaStr Annual booth + speaking slot
+2024-02-22,Expense,R&D,expense,Third-party API licenses,12500,Engineering,Various,API-2024-002,paid,OpenAI usage increase
+2024-02-22,Expense,R&D,expense,QA automation tools,6000,Engineering,BrowserStack,BS-2024-001,paid,Cross-browser testing
+2024-02-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-002,paid,Monthly lease payment
+2024-02-25,Expense,G&A,expense,Travel & entertainment,9500,Sales,Various,TE-2024-001,paid,Client meetings and site visits
+2024-02-25,Expense,G&A,expense,Recruiting & hiring costs,15000,HR,LinkedIn Recruiter,REC-2024-001,paid,Engineering recruiter fees
+2024-03-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,298000,Sales,,INV-2024-013,received,Enterprise clients - 44 accounts (+1 new)
+2024-03-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,141000,Sales,,INV-2024-014,received,Pro clients - 172 accounts (+8 new)
+2024-03-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,46000,Sales,,INV-2024-015,received,Starter clients - 365 accounts (+13 new)
+2024-03-01,Revenue,Professional Services,income,Onboarding & implementation services,55000,Professional Services,,INV-2024-016,received,5 implementations
+2024-03-01,Revenue,Licensing,income,On-premise license renewals,22000,Sales,,INV-2024-017,received,2 renewals
+2024-03-01,Revenue,Other,income,Training and workshops,9800,Professional Services,,INV-2024-018,received,3 workshops
+2024-03-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,198000,Engineering,ADP Payroll,PAY-2024-007,paid,30 engineers (+1 new hire)
+2024-03-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,102000,Sales,ADP Payroll,PAY-2024-008,paid,20 sales reps (+1 new hire)
+2024-03-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,64000,Operations,ADP Payroll,PAY-2024-009,paid,13 admin staff (+1 new hire)
+2024-03-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,53000,HR,BlueCross,BEN-2024-003,paid,Health dental vision 401k
+2024-03-18,Expense,Infrastructure,expense,AWS cloud hosting,42800,Engineering,Amazon Web Services,AWS-2024-003,paid,Production scaling for Q1 close
+2024-03-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-003,paid,Annual plan monthly billing
+2024-03-18,Expense,Infrastructure,expense,Snowflake data warehouse,7500,Engineering,Snowflake Inc,SF-2024-003,paid,Q1 reporting workloads
+2024-03-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,35000,Marketing,Google LLC,GADS-2024-003,paid,Q1 close push
+2024-03-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,20000,Marketing,LinkedIn Corp,LI-2024-003,paid,Pipeline acceleration
+2024-03-20,Expense,Marketing & Sales,expense,PR & media agency retainer,12000,Marketing,Edelman,PR-2024-001,paid,Monthly retainer
+2024-03-22,Expense,R&D,expense,Third-party API licenses,13000,Engineering,Various,API-2024-003,paid,OpenAI Twilio SendGrid
+2024-03-22,Expense,R&D,expense,Security audit & penetration testing,22000,Engineering,CrowdStrike,SEC-2024-001,paid,Annual security assessment
+2024-03-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-003,paid,Monthly lease payment
+2024-03-25,Expense,G&A,expense,Quarterly tax installment,95000,Finance,IRS,TAX-2024-Q1,paid,Estimated quarterly tax payment
+2024-03-25,Expense,G&A,expense,Annual audit fees,18000,Finance,Deloitte,AUD-2024-001,paid,Year-end audit preparation
+2024-04-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,305000,Sales,,INV-2024-019,received,Enterprise clients - 45 accounts (+1 new)
+2024-04-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,148000,Sales,,INV-2024-020,received,Pro clients - 180 accounts (+8 new)
+2024-04-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,47500,Sales,,INV-2024-021,received,Starter clients - 378 accounts (+13 new)
+2024-04-01,Revenue,Professional Services,income,Onboarding & implementation services,42000,Professional Services,,INV-2024-022,received,3 implementations (seasonal dip)
+2024-04-01,Revenue,Licensing,income,Platform licensing fees,15000,Sales,,INV-2024-023,received,1 new license
+2024-04-01,Revenue,Other,income,Support upsell premium tier,11000,Customer Success,,INV-2024-024,received,Premium support contracts
+2024-04-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,205000,Engineering,ADP Payroll,PAY-2024-010,paid,31 engineers (+1 new hire)
+2024-04-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,105000,Sales,ADP Payroll,PAY-2024-011,paid,21 sales reps (+1 new hire)
+2024-04-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,64000,Operations,ADP Payroll,PAY-2024-012,paid,13 admin staff
+2024-04-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,55000,HR,BlueCross,BEN-2024-004,paid,Health dental vision 401k
+2024-04-18,Expense,Infrastructure,expense,AWS cloud hosting,44000,Engineering,Amazon Web Services,AWS-2024-004,paid,New microservices deployment
+2024-04-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-004,paid,Annual plan monthly billing
+2024-04-18,Expense,Infrastructure,expense,Snowflake data warehouse,7800,Engineering,Snowflake Inc,SF-2024-004,paid,Growing data volumes
+2024-04-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,42000,Marketing,Google LLC,GADS-2024-004,paid,Expanded campaign - ANOMALY: 40% over budget
+2024-04-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,22000,Marketing,LinkedIn Corp,LI-2024-004,paid,Increased spend without approval
+2024-04-20,Expense,Marketing & Sales,expense,Influencer marketing campaign,35000,Marketing,CreatorIQ,INF-2024-001,paid,New channel test - unbudgeted
+2024-04-22,Expense,R&D,expense,Third-party API licenses,14000,Engineering,Various,API-2024-004,paid,OpenAI usage spike
+2024-04-22,Expense,R&D,expense,Software development tools,9000,Engineering,JetBrains,JB-2024-002,paid,Added Copilot licenses
+2024-04-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-004,paid,Monthly lease payment
+2024-04-25,Expense,G&A,expense,Legal fees - patent filing,28000,Finance,Baker McKenzie,LEG-2024-002,paid,2 patent applications
+2024-04-25,Expense,G&A,expense,Office renovation deposit,45000,Operations,BuildRight LLC,RENO-2024-001,paid,ANOMALY: Large unplanned capex
+2024-05-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,312000,Sales,,INV-2024-025,received,Enterprise clients - 46 accounts (+1 new)
+2024-05-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,152000,Sales,,INV-2024-026,received,Pro clients - 185 accounts (+5 new)
+2024-05-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,48500,Sales,,INV-2024-027,received,Starter clients - 385 accounts (+7 new)
+2024-05-01,Revenue,Professional Services,income,Onboarding & implementation services,58000,Professional Services,,INV-2024-028,received,5 implementations
+2024-05-01,Revenue,Licensing,income,API premium licensing,20000,Sales,,INV-2024-029,received,3 API premium accounts
+2024-05-01,Revenue,Other,income,Training certifications,7500,Professional Services,,INV-2024-030,received,2 workshops
+2024-05-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,212000,Engineering,ADP Payroll,PAY-2024-013,paid,32 engineers (+1 new hire)
+2024-05-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,108000,Sales,ADP Payroll,PAY-2024-014,paid,22 sales reps (+1 new hire)
+2024-05-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,66000,Operations,ADP Payroll,PAY-2024-015,paid,13 admin staff + 1 intern
+2024-05-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,57000,HR,BlueCross,BEN-2024-005,paid,Health dental vision 401k
+2024-05-15,Expense,Payroll & Benefits,expense,Engineering overtime,18000,Engineering,ADP Payroll,OT-2024-001,paid,ANOMALY: Sprint crunch overtime
+2024-05-18,Expense,Infrastructure,expense,AWS cloud hosting,46500,Engineering,Amazon Web Services,AWS-2024-005,paid,Auto-scaling spike from traffic surge
+2024-05-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-005,paid,Annual plan monthly billing
+2024-05-18,Expense,Infrastructure,expense,Snowflake data warehouse,8200,Engineering,Snowflake Inc,SF-2024-005,paid,ML model training workloads
+2024-05-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,38000,Marketing,Google LLC,GADS-2024-005,paid,Optimized after review
+2024-05-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,19000,Marketing,LinkedIn Corp,LI-2024-005,paid,Adjusted targeting
+2024-05-20,Expense,Marketing & Sales,expense,Trade show - FinTech Summit,18000,Marketing,FinTech Summit,FT-2024-001,paid,Booth and travel
+2024-05-22,Expense,R&D,expense,Third-party API licenses,15500,Engineering,Various,API-2024-005,paid,Increased API consumption
+2024-05-22,Expense,R&D,expense,Open source contributions sponsorship,5000,Engineering,GitHub Sponsors,GH-2024-001,paid,Community investment
+2024-05-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-005,paid,Monthly lease payment
+2024-05-25,Expense,G&A,expense,Professional development & training,12000,HR,Coursera,TRAIN-2024-001,paid,Team learning budget
+2024-05-25,Expense,G&A,expense,Business travel - client visits,14000,Sales,Various,TE-2024-002,paid,3 enterprise client visits
+2024-06-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,318000,Sales,,INV-2024-031,received,Enterprise clients - 47 accounts (+1 new)
+2024-06-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,156000,Sales,,INV-2024-032,received,Pro clients - 190 accounts (+5 new)
+2024-06-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,49000,Sales,,INV-2024-033,received,Starter clients - 390 accounts (+5 new)
+2024-06-01,Revenue,Professional Services,income,Onboarding & implementation services,62000,Professional Services,,INV-2024-034,received,6 implementations (strong pipeline)
+2024-06-01,Revenue,Licensing,income,Enterprise license renewal,45000,Sales,,INV-2024-035,received,Major enterprise annual renewal
+2024-06-01,Revenue,Other,income,Data analytics consulting,15000,Professional Services,,INV-2024-036,received,Custom analytics project
+2024-06-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,220000,Engineering,ADP Payroll,PAY-2024-016,paid,34 engineers (+2 new hires)
+2024-06-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,112000,Sales,ADP Payroll,PAY-2024-017,paid,23 sales reps (+1 new hire)
+2024-06-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,68000,Operations,ADP Payroll,PAY-2024-018,paid,14 admin staff (+1 new hire)
+2024-06-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,60000,HR,BlueCross,BEN-2024-006,paid,Health dental vision 401k
+2024-06-15,Expense,Payroll & Benefits,expense,Engineering overtime,22000,Engineering,ADP Payroll,OT-2024-002,paid,ANOMALY: Continued overtime - product launch prep
+2024-06-18,Expense,Infrastructure,expense,AWS cloud hosting,48000,Engineering,Amazon Web Services,AWS-2024-006,paid,Pre-launch infrastructure scaling
+2024-06-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-006,paid,Annual plan monthly billing
+2024-06-18,Expense,Infrastructure,expense,Snowflake data warehouse,8500,Engineering,Snowflake Inc,SF-2024-006,paid,Historical data migration
+2024-06-18,Expense,Infrastructure,expense,CloudHost Inc - CDN services,12500,Engineering,CloudHost Inc,CH-2024-001,paid,Global CDN deployment
+2024-06-18,Expense,Infrastructure,expense,CloudHost Inc - CDN services,12500,Engineering,CloudHost Inc,CH-2024-001-DUP,paid,ANOMALY: DUPLICATE PAYMENT - same invoice
+2024-06-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,40000,Marketing,Google LLC,GADS-2024-006,paid,H1 close push
+2024-06-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,21000,Marketing,LinkedIn Corp,LI-2024-006,paid,Pipeline for H2
+2024-06-20,Expense,Marketing & Sales,expense,PR agency - product launch,28000,Marketing,Edelman,PR-2024-002,paid,Product launch PR campaign
+2024-06-22,Expense,R&D,expense,Third-party API licenses,16000,Engineering,Various,API-2024-006,paid,Pre-launch API testing
+2024-06-22,Expense,R&D,expense,Security compliance - SOC2,35000,Engineering,Vanta,SOC2-2024-001,paid,SOC2 Type II certification
+2024-06-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-006,paid,Monthly lease payment
+2024-06-25,Expense,G&A,expense,Quarterly tax installment,98000,Finance,IRS,TAX-2024-Q2,paid,Estimated quarterly tax payment
+2024-06-25,Expense,G&A,expense,Annual insurance renewal,85000,Finance,Hartford Insurance,INS-2024-002,paid,Annual premium renewal - all policies
+2024-06-25,Expense,G&A,expense,Board meeting expenses,8500,Finance,Various,BOD-2024-001,paid,Q2 board meeting catering venue
+2024-06-30,Balance Sheet,Current Assets,asset,Cash & cash equivalents,3200000,Finance,,BS-2024-H1-001,,End of H1 balance
+2024-06-30,Balance Sheet,Current Assets,asset,Accounts receivable,1850000,Finance,,BS-2024-H1-002,,Outstanding customer invoices
+2024-06-30,Balance Sheet,Current Assets,asset,Prepaid expenses,180000,Finance,,BS-2024-H1-003,,Prepaid software and insurance
+2024-06-30,Balance Sheet,Current Assets,asset,Short-term investments,400000,Finance,,BS-2024-H1-004,,Treasury bills
+2024-06-30,Balance Sheet,Non-Current Assets,asset,Property & equipment,1200000,Finance,,BS-2024-H1-005,,Office furniture and equipment
+2024-06-30,Balance Sheet,Non-Current Assets,asset,Intangible assets - patents,350000,Finance,,BS-2024-H1-006,,Patent portfolio
+2024-06-30,Balance Sheet,Non-Current Assets,asset,Right-of-use assets,850000,Finance,,BS-2024-H1-007,,Office lease ROU asset
+2024-06-30,Balance Sheet,Non-Current Assets,asset,Goodwill,420000,Finance,,BS-2024-H1-008,,From 2023 acquisition
+2024-06-30,Balance Sheet,Current Liabilities,liability,Accounts payable,680000,Finance,,BS-2024-H1-009,,Outstanding vendor payments
+2024-06-30,Balance Sheet,Current Liabilities,liability,Accrued expenses,245000,Finance,,BS-2024-H1-010,,Accrued salaries bonuses
+2024-06-30,Balance Sheet,Current Liabilities,liability,Deferred revenue,520000,Finance,,BS-2024-H1-011,,Annual subscriptions recognized ratably
+2024-06-30,Balance Sheet,Current Liabilities,liability,Current portion of lease liability,95000,Finance,,BS-2024-H1-012,,12-month lease obligation
+2024-06-30,Balance Sheet,Non-Current Liabilities,liability,Long-term debt,1200000,Finance,,BS-2024-H1-013,,Term loan - 3 year
+2024-06-30,Balance Sheet,Non-Current Liabilities,liability,Long-term lease liability,760000,Finance,,BS-2024-H1-014,,Remaining lease obligation
+2024-06-30,Balance Sheet,Equity,equity,Common stock,100000,Finance,,BS-2024-H1-015,,Par value
+2024-06-30,Balance Sheet,Equity,equity,Additional paid-in capital,4200000,Finance,,BS-2024-H1-016,,Series A and B funding
+2024-06-30,Balance Sheet,Equity,equity,Retained earnings,1550000,Finance,,BS-2024-H1-017,,Cumulative retained earnings
+2024-06-30,Balance Sheet,Equity,equity,Treasury stock,-500000,Finance,,BS-2024-H1-018,,Stock buyback program
+2024-07-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,325000,Sales,,INV-2024-037,received,Enterprise clients - 48 accounts (+1 new)
+2024-07-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,159000,Sales,,INV-2024-038,received,Pro clients - 194 accounts (+4 new)
+2024-07-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,49500,Sales,,INV-2024-039,received,Starter clients - 392 accounts (+2 new slower growth)
+2024-07-01,Revenue,Professional Services,income,Onboarding & implementation services,38000,Professional Services,,INV-2024-040,received,3 implementations (summer slowdown)
+2024-07-01,Revenue,Licensing,income,Platform licensing,16000,Sales,,INV-2024-041,received,1 renewal
+2024-07-01,Revenue,Other,income,Training workshops,6500,Professional Services,,INV-2024-042,received,1 workshop
+2024-07-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,225000,Engineering,ADP Payroll,PAY-2024-019,paid,35 engineers (+1 new hire)
+2024-07-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,115000,Sales,ADP Payroll,PAY-2024-020,paid,24 sales reps (+1 new hire)
+2024-07-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,68000,Operations,ADP Payroll,PAY-2024-021,paid,14 admin staff
+2024-07-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,62000,HR,BlueCross,BEN-2024-007,paid,Health dental vision 401k
+2024-07-15,Expense,Payroll & Benefits,expense,Engineering overtime,25000,Engineering,ADP Payroll,OT-2024-003,paid,ANOMALY: 3rd consecutive month of high overtime
+2024-07-18,Expense,Infrastructure,expense,AWS cloud hosting,52000,Engineering,Amazon Web Services,AWS-2024-007,paid,Post-launch traffic increase
+2024-07-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-007,paid,Annual plan monthly billing
+2024-07-18,Expense,Infrastructure,expense,Snowflake data warehouse,9000,Engineering,Snowflake Inc,SF-2024-007,paid,Analytics demand increase
+2024-07-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,48000,Marketing,Google LLC,GADS-2024-007,paid,ANOMALY: Major spike - 60% over baseline
+2024-07-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,24000,Marketing,LinkedIn Corp,LI-2024-007,paid,Aggressive H2 targeting
+2024-07-20,Expense,Marketing & Sales,expense,Agency fees - unbudgeted campaign,55000,Marketing,WPP Group,AGN-2024-001,paid,ANOMALY: Unbudgeted agency engagement
+2024-07-22,Expense,R&D,expense,Third-party API licenses,17000,Engineering,Various,API-2024-007,paid,Production API costs rising
+2024-07-22,Expense,R&D,expense,ML model training compute,28000,Engineering,Google Cloud,GCP-2024-001,paid,New ML features GPU costs
+2024-07-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-007,paid,Monthly lease payment
+2024-07-25,Expense,G&A,expense,IT equipment refresh,35000,Operations,Dell Technologies,DELL-2024-001,paid,New laptops for engineering
+2024-07-25,Expense,G&A,expense,Cybersecurity insurance rider,12000,Finance,Hartford Insurance,INS-2024-003,paid,Additional cyber coverage
+2024-08-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,330000,Sales,,INV-2024-043,received,Enterprise clients - 49 accounts (+1 new)
+2024-08-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,162000,Sales,,INV-2024-044,received,Pro clients - 198 accounts (+4 new)
+2024-08-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,50000,Sales,,INV-2024-045,received,Starter clients - 396 accounts (+4 new)
+2024-08-01,Revenue,Professional Services,income,Onboarding & implementation services,35000,Professional Services,,INV-2024-046,received,3 implementations
+2024-08-01,Revenue,Licensing,income,API licensing expansion,22000,Sales,,INV-2024-047,received,Premium API tier
+2024-08-01,Revenue,Other,income,Support premium contracts,9000,Customer Success,,INV-2024-048,received,Premium support
+2024-08-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,232000,Engineering,ADP Payroll,PAY-2024-022,paid,36 engineers (+1 new hire)
+2024-08-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,118000,Sales,ADP Payroll,PAY-2024-023,paid,25 sales reps (+1 new hire)
+2024-08-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,70000,Operations,ADP Payroll,PAY-2024-024,paid,14 admin staff + 1 new
+2024-08-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,64000,HR,BlueCross,BEN-2024-008,paid,Health dental vision 401k
+2024-08-18,Expense,Infrastructure,expense,AWS cloud hosting,50000,Engineering,Amazon Web Services,AWS-2024-008,paid,Stabilized after optimization
+2024-08-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-008,paid,Annual plan monthly billing
+2024-08-18,Expense,Infrastructure,expense,Snowflake data warehouse,9200,Engineering,Snowflake Inc,SF-2024-008,paid,Steady state
+2024-08-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,36000,Marketing,Google LLC,GADS-2024-008,paid,Reduced after audit
+2024-08-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,19000,Marketing,LinkedIn Corp,LI-2024-008,paid,Optimized targeting
+2024-08-20,Expense,Marketing & Sales,expense,Customer event - annual summit,42000,Marketing,Events Co,EVT-2024-001,paid,Annual customer summit
+2024-08-22,Expense,R&D,expense,Third-party API licenses,16500,Engineering,Various,API-2024-008,paid,Stable API consumption
+2024-08-22,Expense,R&D,expense,Bug bounty program,10000,Engineering,HackerOne,H1-2024-001,paid,Security bug bounty
+2024-08-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-008,paid,Monthly lease payment
+2024-08-25,Expense,G&A,expense,Legal - contract review,6500,Finance,Baker McKenzie,LEG-2024-003,paid,Enterprise contract negotiations
+2024-08-25,Expense,G&A,expense,Accounting software,3800,Finance,NetSuite,NS-2024-001,paid,Annual subscription
+2024-09-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Enterprise tier,340000,Sales,,INV-2024-049,received,Enterprise clients - 50 accounts (+1 new milestone)
+2024-09-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Pro tier,165000,Sales,,INV-2024-050,received,Pro clients - 201 accounts (+3 new)
+2024-09-01,Revenue,SaaS Subscriptions,income,Monthly SaaS recurring revenue - Starter tier,50500,Sales,,INV-2024-051,received,Starter clients - 400 accounts (+4 new)
+2024-09-01,Revenue,Professional Services,income,Onboarding & implementation services,68000,Professional Services,,INV-2024-052,received,7 implementations (Q3 pipeline strong)
+2024-09-01,Revenue,Professional Services,income,Revenue recognized early - large contracts,320000,Sales,,INV-2024-053,pending,ANOMALY: Revenue recognition timing issue - 3 contracts recognized early vs Q4 delivery
+2024-09-01,Revenue,Licensing,income,Enterprise license bundle,28000,Sales,,INV-2024-054,received,2 enterprise bundles
+2024-09-01,Revenue,Other,income,Partner referral commissions received,12500,Sales,,INV-2024-055,received,Channel partner program
+2024-09-15,Expense,Payroll & Benefits,expense,Employee salaries - Engineering,238000,Engineering,ADP Payroll,PAY-2024-025,paid,37 engineers (+1 new hire)
+2024-09-15,Expense,Payroll & Benefits,expense,Employee salaries - Sales & Marketing,122000,Sales,ADP Payroll,PAY-2024-026,paid,26 sales reps (+1 new hire)
+2024-09-15,Expense,Payroll & Benefits,expense,Employee salaries - G&A,72000,Operations,ADP Payroll,PAY-2024-027,paid,15 admin staff
+2024-09-15,Expense,Payroll & Benefits,expense,Employee benefits & insurance,66000,HR,BlueCross,BEN-2024-009,paid,Health dental vision 401k
+2024-09-15,Expense,Payroll & Benefits,expense,Engineering overtime,28000,Engineering,ADP Payroll,OT-2024-004,paid,ANOMALY: 22% over budget for 4th consecutive month
+2024-09-18,Expense,Infrastructure,expense,AWS cloud hosting,51000,Engineering,Amazon Web Services,AWS-2024-009,paid,Stable with minor scaling
+2024-09-18,Expense,Infrastructure,expense,Datadog monitoring & APM,4200,Engineering,Datadog Inc,DD-2024-009,paid,Annual plan monthly billing
+2024-09-18,Expense,Infrastructure,expense,Snowflake data warehouse,9500,Engineering,Snowflake Inc,SF-2024-009,paid,Q3 analytics workloads
+2024-09-20,Expense,Marketing & Sales,expense,Google Ads - SEM campaigns,55000,Marketing,Google LLC,GADS-2024-009,paid,ANOMALY: September spend 47% over 3-month average
+2024-09-20,Expense,Marketing & Sales,expense,LinkedIn Ads - B2B campaigns,22000,Marketing,LinkedIn Corp,LI-2024-009,paid,Q3 pipeline push
+2024-09-20,Expense,Marketing & Sales,expense,Agency fees - brand campaign,68000,Marketing,WPP Group,AGN-2024-002,paid,ANOMALY: Large unbudgeted agency fees
+2024-09-20,Expense,Marketing & Sales,expense,Influencer partnerships,25000,Marketing,Various,INF-2024-002,paid,Social media influencer campaign
+2024-09-22,Expense,R&D,expense,Third-party API licenses,18000,Engineering,Various,API-2024-009,paid,Increased API usage from growth
+2024-09-22,Expense,R&D,expense,New feature development tools,8000,Engineering,Figma,FIG-2024-001,paid,Design tool upgrade
+2024-09-25,Expense,G&A,expense,Office lease - HQ,32000,Operations,Brookfield Properties,LEASE-2024-009,paid,Monthly lease payment
+2024-09-25,Expense,G&A,expense,Quarterly tax installment,102000,Finance,IRS,TAX-2024-Q3,paid,Estimated quarterly tax payment
+2024-09-25,Expense,G&A,expense,D&O insurance renewal,15000,Finance,Hartford Insurance,INS-2024-004,paid,Directors and officers policy
+2024-09-30,Accounts Receivable,Outstanding,receivable,Enterprise client - TechCorp,85000,Finance,,AR-2024-001,outstanding,45 days outstanding - needs follow up
+2024-09-30,Accounts Receivable,Outstanding,receivable,Enterprise client - FinanceHub,62000,Finance,,AR-2024-002,outstanding,38 days outstanding
+2024-09-30,Accounts Receivable,Outstanding,receivable,Enterprise client - DataDriven Inc,48000,Finance,,AR-2024-003,outstanding,52 days outstanding - overdue
+2024-09-30,Accounts Receivable,Outstanding,receivable,Pro clients - various,125000,Finance,,AR-2024-004,outstanding,Average 35 days outstanding
+2024-09-30,Accounts Receivable,Outstanding,receivable,Starter clients - various,42000,Finance,,AR-2024-005,outstanding,Average 28 days outstanding
+2024-09-30,KPI,Growth,metric,Monthly Recurring Revenue (MRR),555500,Finance,,KPI-2024-001,,September MRR
+2024-09-30,KPI,Growth,metric,Annual Recurring Revenue (ARR),6666000,Finance,,KPI-2024-002,,Annualized MRR
+2024-09-30,KPI,Growth,metric,YoY Revenue Growth Rate,23,Finance,,KPI-2024-003,,Percentage
+2024-09-30,KPI,Growth,metric,Net Revenue Retention,112,Finance,,KPI-2024-004,,Percentage - expansion revenue
+2024-09-30,KPI,Growth,metric,Customer Acquisition Rate,15,Finance,,KPI-2024-005,,New customers per month average
+2024-09-30,KPI,Efficiency,metric,Customer Acquisition Cost (CAC),1200,Finance,,KPI-2024-006,,Fully loaded CAC
+2024-09-30,KPI,Efficiency,metric,LTV to CAC Ratio,4.2,Finance,,KPI-2024-007,,Target > 3x
+2024-09-30,KPI,Efficiency,metric,Days Sales Outstanding (DSO),45,Finance,,KPI-2024-008,,Days - target 38
+2024-09-30,KPI,Efficiency,metric,Magic Number,0.85,Finance,,KPI-2024-009,,Sales efficiency
+2024-09-30,KPI,Profitability,metric,Gross Margin,68.5,Finance,,KPI-2024-010,,Percentage - declining trend
+2024-09-30,KPI,Profitability,metric,Net Profit Margin,15,Finance,,KPI-2024-011,,Percentage
+2024-09-30,KPI,Profitability,metric,EBITDA Margin,18.2,Finance,,KPI-2024-012,,Percentage
+2024-09-30,KPI,Profitability,metric,Operating Margin,16.5,Finance,,KPI-2024-013,,Percentage
+2024-09-30,KPI,Retention,metric,Customer Retention Rate,94,Finance,,KPI-2024-014,,Percentage - strong
+2024-09-30,KPI,Retention,metric,Logo Churn Rate,1.2,Finance,,KPI-2024-015,,Monthly percentage
+2024-09-30,KPI,Retention,metric,Revenue Churn Rate,0.8,Finance,,KPI-2024-016,,Monthly percentage - low
+2024-09-30,KPI,Liquidity,metric,Current Ratio,2.4,Finance,,KPI-2024-017,,Target > 2.0
+2024-09-30,KPI,Liquidity,metric,Quick Ratio,2.1,Finance,,KPI-2024-018,,Excluding inventory
+2024-09-30,KPI,Liquidity,metric,Cash Runway Months,14,Finance,,KPI-2024-019,,At current burn rate
+2024-09-30,KPI,Leverage,metric,Debt to Equity Ratio,0.33,Finance,,KPI-2024-020,,Conservative leverage
+2024-09-30,KPI,Leverage,metric,Interest Coverage Ratio,8.5,Finance,,KPI-2024-021,,Strong coverage
+2024-09-30,KPI,Workforce,metric,Revenue Per Employee,93000,Finance,,KPI-2024-022,,Annual per FTE
+2024-09-30,KPI,Workforce,metric,Total Employees,58,HR,,KPI-2024-023,,Full-time equivalents
+2024-09-30,KPI,Workforce,metric,Engineering as Pct of Total,63.8,HR,,KPI-2024-024,,Percentage of workforce

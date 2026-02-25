@@ -1,0 +1,353 @@
+WISSIQ TECHNOLOGIES INC. — COMPANY FINANCIAL OVERVIEW
+======================================================
+Document Classification: Internal — Board & Management Use
+Last Updated: September 30, 2024
+Prepared by: Office of the CFO
+
+TABLE OF CONTENTS
+1. Company Overview
+2. Business Model & Revenue Streams
+3. Financial Performance Summary
+4. Cash Management & Treasury Policy
+5. Expense Policy & Budget Guidelines
+6. Key Contracts & Obligations
+7. Risk Factors
+8. Industry Benchmarks & Competitive Landscape
+9. Strategic Initiatives FY2024-2025
+10. Board Governance & Reporting
+
+---
+
+1. COMPANY OVERVIEW
+
+WissIQ Technologies Inc. is a B2B SaaS company providing AI-powered financial intelligence solutions to mid-market and enterprise clients. Founded in 2019, the company is headquartered in San Francisco, California, with a satellite office in Austin, Texas.
+
+The company completed its Series B funding round in March 2023, raising $18M at a $72M pre-money valuation, led by Acme Ventures with participation from existing investors TechCapital Partners and Early Stage Fund I.
+
+Current Capitalization:
+- Series A: $6M (2021) — TechCapital Partners lead
+- Series B: $18M (2023) — Acme Ventures lead
+- Total Equity Raised: $24M
+- Convertible Notes Outstanding: $0
+- Term Loan: $1.2M (Silicon Valley Bank, 36-month term, 7.5% interest)
+
+As of September 2024, the company employs 58 full-time employees across four departments:
+- Engineering: 37 FTEs (63.8%)
+- Sales & Marketing: 26 FTEs (includes 4 SDRs, 8 AEs, 6 CSMs, 8 marketing)
+- Operations & G&A: 15 FTEs
+- Professional Services: 6 FTEs (including contractors)
+
+---
+
+2. BUSINESS MODEL & REVENUE STREAMS
+
+WissIQ operates a multi-tiered SaaS subscription model with three pricing tiers:
+
+a) Enterprise Tier ($6,500-$8,500/month per account)
+   - Full platform access with custom integrations
+   - Dedicated customer success manager
+   - SLA guarantees (99.95% uptime)
+   - Custom reporting and API access
+   - Current accounts: 50 (as of Sep 2024)
+   - Average contract value: $7,200/month
+   - Average contract duration: 24 months
+
+b) Pro Tier ($750-$1,200/month per account)
+   - Core platform features
+   - Standard integrations
+   - Email support with 4-hour SLA
+   - Current accounts: 201 (as of Sep 2024)
+   - Average contract value: $820/month
+   - Average contract duration: 12 months
+
+c) Starter Tier ($100-$200/month per account)
+   - Basic platform access
+   - Self-service onboarding
+   - Community support
+   - Current accounts: 400 (as of Sep 2024)
+   - Average contract value: $126/month
+   - Average contract duration: Month-to-month
+
+Additional Revenue Streams:
+- Professional Services: Implementation, onboarding, and custom development
+  - Average implementation fee: $12,000-$18,000 (Enterprise)
+  - Average onboarding fee: $2,500-$5,000 (Pro)
+  - Gross margin on PS: ~45%
+
+- Licensing: On-premise deployment licenses and API premium access
+  - Annual license fee: $15,000-$65,000
+  - API premium access: $5,000-$8,000/month
+
+- Other: Training workshops ($3,500/session), consulting ($250/hour), partner referral commissions
+
+Revenue Recognition Policy:
+- SaaS subscriptions: Recognized ratably over the contract period (ASC 606)
+- Professional services: Recognized upon delivery/completion
+- Licenses: Recognized at point of delivery for perpetual; ratably for term licenses
+- Note: Q3 2024 has a revenue recognition concern — three large contracts totaling $320K were recognized in September despite Q4 service delivery schedules. This requires audit review for ASC 606 compliance.
+
+---
+
+3. FINANCIAL PERFORMANCE SUMMARY
+
+FY2024 Year-to-Date (Jan-Sep 2024):
+
+Revenue:
+- Total Revenue YTD: $5,420,000 (annualized ~$7.2M)
+- SaaS ARR (Sep run rate): $6,666,000
+- Revenue Growth: 23% YoY
+- SaaS Revenue: ~80% of total
+- Professional Services: ~13% of total
+- Licensing: ~5% of total
+- Other: ~2% of total
+
+Expenses:
+- Total Operating Expenses YTD: $4,608,000
+- Payroll & Benefits: ~50% of OpEx (largest category)
+- Marketing & Sales: ~20% of OpEx
+- Infrastructure: ~12% of OpEx
+- R&D (non-payroll): ~10% of OpEx
+- G&A: ~8% of OpEx
+
+Key Margin Metrics:
+- Gross Margin: 68.5% (declining from 72.1% six months prior)
+  - Decline driven by: increased COGS from infrastructure scaling, API costs, overtime
+  - Industry median for B2B SaaS: 70%
+- Net Profit Margin: 15%
+- EBITDA Margin: 18.2%
+- Operating Margin: 16.5%
+
+Profitability Trend:
+- The company achieved operational profitability in Q2 2024
+- Net income is positive but margins are compressing due to:
+  1. Aggressive hiring (45 to 58 employees in 9 months)
+  2. Marketing spend increase (34% YoY without proportional ROI)
+  3. Rising infrastructure costs from product scaling
+  4. Engineering overtime costs (4 consecutive months above budget)
+
+---
+
+4. CASH MANAGEMENT & TREASURY POLICY
+
+Current Cash Position (as of Sep 30, 2024):
+- Cash on Hand: $2,800,000
+- Cash Equivalents: $400,000 (Treasury bills, <90 day maturity)
+- Total Liquid Assets: $3,200,000
+- Cash Runway: 14 months at current burn rate
+
+Cash Flow Summary (Monthly Averages):
+- Average Monthly Cash Inflows: $600,000
+- Average Monthly Cash Outflows: $530,000
+- Average Net Monthly Cash Flow: +$70,000
+- Monthly burn rate has been decreasing due to improved collections
+
+Treasury Policy:
+- Minimum cash balance maintained: $1,500,000
+- Excess cash invested in short-term Treasury bills (T-bills < 90 days)
+- No speculative investments permitted
+- Foreign currency exposure: Minimal (<2% of revenue in non-USD)
+
+Accounts Receivable:
+- Total AR Outstanding: $1,850,000
+- Days Sales Outstanding (DSO): 45 days (industry benchmark: 38 days)
+- AR Aging:
+  - Current (0-30 days): $1,200,000
+  - 31-60 days: $420,000
+  - 61-90 days: $180,000
+  - Over 90 days: $50,000
+- Collection improvement initiative underway targeting DSO of 35 days by Q1 2025
+
+---
+
+5. EXPENSE POLICY & BUDGET GUIDELINES
+
+Annual Budget FY2024: $6,800,000 (approved by Board Dec 2023)
+YTD Actual vs Budget Variance: +4.2% over budget
+
+Department Budgets and Variances:
+- Engineering: Budget $3,200,000 / YTD Actual $3,450,000 (+7.8% over)
+  - Primary driver: Unbudgeted overtime ($93,000 YTD)
+  - Secondary: API cost increases (+$18,000)
+- Marketing: Budget $1,200,000 / YTD Actual $1,420,000 (+18.3% over)
+  - Primary driver: Unbudgeted agency fees ($123,000)
+  - Secondary: Google Ads overspend in Jul-Sep
+- Sales: Budget $950,000 / YTD Actual $920,000 (-3.2% under)
+- G&A: Budget $800,000 / YTD Actual $860,000 (+7.5% over)
+  - Primary driver: Office renovation deposit ($45,000)
+- Professional Services: Budget $280,000 / YTD Actual $265,000 (-5.4% under)
+
+Expense Approval Thresholds:
+- Up to $5,000: Department manager approval
+- $5,001-$25,000: VP approval + Finance review
+- $25,001-$100,000: CFO approval
+- Over $100,000: CEO + Board approval
+
+Travel Policy:
+- Economy class for domestic flights
+- Business class for international flights >6 hours
+- Hotel per diem: $250/night (SF/NY), $200/night (other cities)
+- Meal per diem: $75/day
+
+Vendor Payment Terms:
+- Standard: Net 30
+- Strategic vendors: Net 45-60 negotiated
+- Cloud providers: Monthly billing with annual commit discounts
+
+---
+
+6. KEY CONTRACTS & OBLIGATIONS
+
+Major Revenue Contracts:
+1. TechCorp Industries — $1.2M annual (Enterprise, 3-year term, expires Dec 2025)
+2. FinanceHub Global — $840,000 annual (Enterprise, 2-year term, expires Jun 2025)
+3. DataDriven Inc — $720,000 annual (Enterprise, 2-year term, expires Sep 2025)
+4. RetailMax Corp — $600,000 annual (Enterprise, 1-year term, expires Mar 2025)
+5. HealthTech Solutions — $480,000 annual (Enterprise, 2-year term, expires Dec 2025)
+
+Key Vendor Contracts:
+1. Amazon Web Services — $540,000 annual committed (3-year EDP, expires Dec 2025)
+   - Minimum monthly commit: $38,000
+   - Over-commit pricing: Standard on-demand rates
+2. Brookfield Properties — Office lease: $384,000 annual ($32,000/month, 5-year term, expires Jun 2027)
+3. ADP Payroll — $48,000 annual (payroll processing for 58+ employees)
+4. Snowflake — $96,000 annual committed (2-year term, expires Jun 2025)
+5. Hartford Insurance — $92,200 annual (all policies combined)
+
+Debt Obligations:
+- Silicon Valley Bank Term Loan: $1,200,000 outstanding
+  - Monthly payment: $38,500 (principal + interest)
+  - Interest rate: 7.5% fixed
+  - Maturity: March 2026
+  - Covenants: Minimum cash balance $1.5M, revenue growth >15% YoY
+
+---
+
+7. RISK FACTORS
+
+Financial Risks (as of Sep 2024):
+
+a) Margin Compression Risk (HIGH)
+   Gross margins have declined from 72.1% to 68.5% over 6 months. If the trend continues, profitability could be threatened. Root causes include rising COGS (API costs, infrastructure), engineering overtime, and slower revenue-per-employee growth.
+   Mitigation: Infrastructure optimization initiative, API cost renegotiation, overtime reduction plan.
+
+b) Customer Concentration Risk (MEDIUM)
+   Top 5 enterprise clients represent 28% of total ARR. Loss of any single top-5 client would materially impact revenue.
+   Mitigation: Diversification through Pro tier growth, multi-year contracts with renewal incentives.
+
+c) Marketing Spend Efficiency Risk (HIGH)
+   Customer Acquisition Cost (CAC) has increased 34% YoY from $895 to $1,200, significantly above the industry benchmark of $950. Marketing spend has exceeded budget by 18.3% without proportional revenue growth.
+   Mitigation: Marketing channel audit, agency contract review, shift to lower-CAC channels.
+
+d) Revenue Recognition Risk (CRITICAL — Q3 2024)
+   Three contracts totaling $320K were recognized in Q3 2024 (September) despite service delivery scheduled for Q4. This requires immediate audit review for ASC 606 compliance. If reversed, Q3 revenue would be overstated by approximately 5.9%.
+   Mitigation: Immediate internal audit, engagement of external auditors for independent review.
+
+e) Cash Flow Timing Risk (LOW-MEDIUM)
+   DSO of 45 days exceeds industry benchmark of 38 days. While cash runway is adequate at 14 months, deteriorating collections could compress runway to under 12 months.
+   Mitigation: Automated invoice reminders, early payment discounts, dedicated collections FTE.
+
+f) Data Quality Risk (LOW)
+   12 expense entries in September lack proper category classification. Date format inconsistencies (MM/DD/YYYY vs YYYY-MM-DD) affect 45 imported records. A duplicate payment of $12,500 to CloudHost Inc was detected in June.
+   Mitigation: Data governance process improvement, AP reconciliation automation.
+
+g) Interest Rate / Debt Risk (LOW)
+   The SVB term loan is at a fixed 7.5% rate, eliminating variable rate exposure. Debt-to-equity ratio of 0.33 is conservative and well within covenants.
+
+---
+
+8. INDUSTRY BENCHMARKS & COMPETITIVE LANDSCAPE
+
+SaaS Industry Benchmarks (B2B, $5M-$15M ARR segment):
+- Revenue Growth Rate: 18% median (WissIQ: 23% — ABOVE)
+- Gross Margin: 70% median (WissIQ: 68.5% — BELOW)
+- Net Profit Margin: 14% median (WissIQ: 15% — ABOVE)
+- CAC: $950 median (WissIQ: $1,200 — BELOW benchmark)
+- LTV:CAC Ratio: 3.5x median (WissIQ: 4.2x — ABOVE)
+- Customer Retention: 90% median (WissIQ: 94% — ABOVE)
+- DSO: 38 days median (WissIQ: 45 days — BELOW benchmark)
+- Current Ratio: 2.0 median (WissIQ: 2.4 — ABOVE)
+- Rule of 40: 40 median (WissIQ: 41.2 — ABOVE)
+- Revenue per Employee: $85K median (WissIQ: $93K — ABOVE)
+- Debt-to-Equity: 0.40 median (WissIQ: 0.33 — ABOVE/better)
+
+Key Competitors:
+1. Mosaic.tech — Series C, ~$20M ARR, focuses on strategic finance
+2. Runway Financial — Series B, ~$12M ARR, financial modeling
+3. Cube Software — Series B, ~$15M ARR, FP&A automation
+4. Jirav — Acquired by Centage, mid-market FP&A
+5. Planful — Growth stage, ~$50M ARR, enterprise FP&A
+
+WissIQ Competitive Advantages:
+- AI-native architecture (vs bolt-on AI for competitors)
+- Multi-agent financial analysis system
+- Real-time anomaly detection capabilities
+- Stronger customer retention than peers (94% vs 90%)
+
+---
+
+9. STRATEGIC INITIATIVES FY2024-2025
+
+a) Product: AI Agent Platform Launch (Q3 2024 — COMPLETED)
+   - Multi-agent financial analysis system deployed
+   - Includes: Snapshot, Forecast, KPI, Anomaly Detection, Q&A agents
+   - Expected impact: 15-20% increase in Enterprise deal size
+   - Investment: $850,000 (engineering time + infrastructure)
+
+b) Go-to-Market: Mid-Market Expansion (Q4 2024 — IN PROGRESS)
+   - Target: Companies $10M-$100M revenue
+   - New pricing tier between Pro and Enterprise
+   - Dedicated mid-market sales team (3 AEs)
+   - Budget: $400,000 incremental
+
+c) Operations: Margin Improvement Initiative (Q4 2024 — PLANNED)
+   - Renegotiate top 10 vendor contracts (target: 8% COGS reduction)
+   - Optimize AWS infrastructure (target: 15% cost reduction)
+   - Reduce engineering overtime through hiring and process improvement
+   - Target: Restore gross margin to 70%+ by Q2 2025
+
+d) Finance: Collections & DSO Improvement (Q4 2024 — IN PROGRESS)
+   - Automated invoice reminders (implemented Sep 2024)
+   - Early payment discount program (2/10 Net 30 terms)
+   - Dedicated AR specialist hired (starts Oct 2024)
+   - Target: Reduce DSO from 45 days to 35 days by Q1 2025
+
+e) International: UK/EU Market Entry (H1 2025 — PLANNING)
+   - Establish UK entity for EMEA sales
+   - GDPR compliance already achieved
+   - Target: 10% of new ARR from international by end of 2025
+   - Budget: $600,000 (legal, compliance, initial team)
+
+---
+
+10. BOARD GOVERNANCE & REPORTING
+
+Board Composition:
+- Jane Smith, CEO & Co-Founder (Management)
+- Michael Chen, CTO & Co-Founder (Management)
+- Sarah Williams, Partner at Acme Ventures (Investor Director)
+- Robert Johnson, Partner at TechCapital Partners (Investor Director)
+- Dr. Maria Garcia, Former CFO of DataCorp (Independent Director)
+
+Board Meeting Cadence: Quarterly (March, June, September, December)
+
+Standard Board Reporting Package:
+1. Financial Statements (P&L, Balance Sheet, Cash Flow)
+2. Revenue & ARR Dashboard
+3. Customer Metrics (NRR, Churn, Retention)
+4. Budget vs Actual Variance Analysis
+5. Cash Forecast (13-week rolling)
+6. KPI Scorecard vs Industry Benchmarks
+7. Risk Register & Mitigation Status
+8. Strategic Initiative Progress Report
+
+Key Board-Level Decisions Required Q4 2024:
+1. Approval of FY2025 budget ($8.5M proposed, 25% increase)
+2. International expansion authorization
+3. Potential Series C exploration ($25M target at $120M+ valuation)
+4. Executive team expansion (VP Engineering, VP International)
+
+---
+
+END OF DOCUMENT
+
+CONFIDENTIALITY NOTICE: This document contains proprietary and confidential information of WissIQ Technologies Inc. Unauthorized distribution is prohibited.
