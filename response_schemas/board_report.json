@@ -1,0 +1,60 @@
+{
+  "agent_name": "Board Report Agent",
+  "agent_id": "699e1f2a03e99fdcfa03914c",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "report_title": { "type": "string" },
+      "generated_date": { "type": "string" },
+      "executive_summary": { "type": "string" },
+      "sections": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "content": { "type": "string" },
+            "key_metrics": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": { "type": "string" },
+                  "value": { "type": "string" },
+                  "status": { "type": "string" }
+                },
+                "required": ["label", "value", "status"],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": ["title", "content", "key_metrics"],
+          "additionalProperties": false
+        }
+      },
+      "board_questions": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "next_steps": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "action": { "type": "string" },
+            "owner": { "type": "string" },
+            "deadline": { "type": "string" }
+          },
+          "required": ["action", "owner", "deadline"],
+          "additionalProperties": false
+        }
+      },
+      "overall_assessment": { "type": "string" }
+    },
+    "required": ["report_title", "generated_date", "executive_summary", "sections", "board_questions", "next_steps", "overall_assessment"],
+    "additionalProperties": false
+  }
+}

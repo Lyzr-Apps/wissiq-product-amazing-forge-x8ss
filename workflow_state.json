@@ -1,0 +1,44 @@
+{
+  "agents": {
+    "financial_snapshot": {
+      "agent_id": "699e1ebc28e1d2a729e6c352",
+      "name": "Financial Snapshot Agent"
+    },
+    "cash_flow_forecast": {
+      "agent_id": "699e1ef0a79fe05f9bfd5091",
+      "name": "Cash Flow Forecast Agent"
+    },
+    "kpi_benchmark": {
+      "agent_id": "699e1ef0a79fe05f9bfd5093",
+      "name": "KPI & Benchmark Agent"
+    },
+    "anomaly_detection": {
+      "agent_id": "699e1ef1a79fe05f9bfd5095",
+      "name": "Anomaly Detection Agent"
+    },
+    "financial_coordinator": {
+      "agent_id": "699e1f09b4bdd3b00090d5e5",
+      "name": "Financial Analysis Coordinator",
+      "is_manager": true,
+      "managed_agents": [
+        "699e1ebc28e1d2a729e6c352",
+        "699e1ef0a79fe05f9bfd5091",
+        "699e1ef0a79fe05f9bfd5093",
+        "699e1ef1a79fe05f9bfd5095"
+      ]
+    },
+    "ask_wissiq": {
+      "agent_id": "699e1f2a4268325fd8a0c022",
+      "name": "Ask WissIQ Agent",
+      "has_knowledge_base": true
+    },
+    "board_report": {
+      "agent_id": "699e1f2a03e99fdcfa03914c",
+      "name": "Board Report Agent",
+      "has_file_output": true
+    }
+  },
+  "rag_id": "699e1ebce9e49857cb7abf2b",
+  "rag_name": "wissiqfinancialkb5ajg",
+  "workflow_created": true
+}

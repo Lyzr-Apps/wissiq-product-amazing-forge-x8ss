@@ -1,0 +1,40 @@
+{
+  "agent_name": "Ask WissIQ Agent",
+  "agent_id": "699e1f2a4268325fd8a0c022",
+  "description": "Conversational Q&A agent that answers natural language financial questions using the uploaded client financial data as context",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "answer": "string",
+    "data_points": [
+      {
+        "metric": "string",
+        "value": "string",
+        "context": "string"
+      }
+    ],
+    "implications": "string",
+    "follow_up_suggestions": [
+      "string"
+    ],
+    "confidence": "string",
+    "data_source": "string"
+  },
+  "example_response": {
+    "answer": "sample string",
+    "data_points": [
+      {
+        "metric": "sample string",
+        "value": "sample string",
+        "context": "sample string"
+      }
+    ],
+    "implications": "sample string",
+    "follow_up_suggestions": [
+      "sample string"
+    ],
+    "confidence": "sample string",
+    "data_source": "sample string"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "agent_name": "Financial Snapshot Agent",
+  "agent_id": "699e1ebc28e1d2a729e6c352",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "pnl_summary": {
+        "type": "object",
+        "properties": {
+          "total_revenue": { "type": "string" },
+          "total_expenses": { "type": "string" },
+          "net_income": { "type": "string" },
+          "gross_margin": { "type": "string" },
+          "key_line_items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "amount": { "type": "string" },
+                "change_pct": { "type": "string" }
+              },
+              "required": ["name", "amount", "change_pct"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["total_revenue", "total_expenses", "net_income", "gross_margin", "key_line_items"],
+        "additionalProperties": false
+      },
+      "balance_sheet": {
+        "type": "object",
+        "properties": {
+          "total_assets": { "type": "string" },
+          "total_liabilities": { "type": "string" },
+          "total_equity": { "type": "string" },
+          "key_components": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "amount": { "type": "string" },
+                "category": { "type": "string" }
+              },
+              "required": ["name", "amount", "category"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["total_assets", "total_liabilities", "total_equity", "key_components"],
+        "additionalProperties": false
+      },
+      "cash_position": {
+        "type": "object",
+        "properties": {
+          "cash_on_hand": { "type": "string" },
+          "cash_equivalents": { "type": "string" },
+          "net_cash_flow": { "type": "string" },
+          "runway_months": { "type": "string" }
+        },
+        "required": ["cash_on_hand", "cash_equivalents", "net_cash_flow", "runway_months"],
+        "additionalProperties": false
+      },
+      "revenue_breakdown": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": { "type": "string" },
+            "amount": { "type": "string" },
+            "percentage": { "type": "string" }
+          },
+          "required": ["category", "amount", "percentage"],
+          "additionalProperties": false
+        }
+      },
+      "expense_breakdown": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": { "type": "string" },
+            "amount": { "type": "string" },
+            "percentage": { "type": "string" }
+          },
+          "required": ["category", "amount", "percentage"],
+          "additionalProperties": false
+        }
+      },
+      "highlights": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string" },
+            "title": { "type": "string" },
+            "description": { "type": "string" }
+          },
+          "required": ["type", "title", "description"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["pnl_summary", "balance_sheet", "cash_position", "revenue_breakdown", "expense_breakdown", "highlights"],
+    "additionalProperties": false
+  }
+}

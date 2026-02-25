@@ -1,0 +1,66 @@
+{
+  "agent_name": "Anomaly Detection Agent",
+  "agent_id": "699e1ef1a79fe05f9bfd5095",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "risk_score": { "type": "string" },
+      "risk_level": { "type": "string" },
+      "total_anomalies": { "type": "string" },
+      "anomalies": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string" },
+            "severity": { "type": "string" },
+            "category": { "type": "string" },
+            "title": { "type": "string" },
+            "description": { "type": "string" },
+            "metric_affected": { "type": "string" },
+            "expected_value": { "type": "string" },
+            "actual_value": { "type": "string" },
+            "deviation_pct": { "type": "string" },
+            "recommended_action": { "type": "string" }
+          },
+          "required": ["id", "severity", "category", "title", "description", "metric_affected", "expected_value", "actual_value", "deviation_pct", "recommended_action"],
+          "additionalProperties": false
+        }
+      },
+      "trend_alerts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "metric": { "type": "string" },
+            "direction": { "type": "string" },
+            "duration": { "type": "string" },
+            "concern_level": { "type": "string" },
+            "description": { "type": "string" }
+          },
+          "required": ["metric", "direction", "duration", "concern_level", "description"],
+          "additionalProperties": false
+        }
+      },
+      "data_quality_issues": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "issue_type": { "type": "string" },
+            "description": { "type": "string" },
+            "affected_records": { "type": "string" }
+          },
+          "required": ["issue_type", "description", "affected_records"],
+          "additionalProperties": false
+        }
+      },
+      "summary": { "type": "string" }
+    },
+    "required": ["risk_score", "risk_level", "total_anomalies", "anomalies", "trend_alerts", "data_quality_issues", "summary"],
+    "additionalProperties": false
+  }
+}

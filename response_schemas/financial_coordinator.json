@@ -1,0 +1,52 @@
+{
+  "agent_name": "Financial Analysis Coordinator",
+  "agent_id": "699e1f09b4bdd3b00090d5e5",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "executive_summary": { "type": "string" },
+      "analysis_status": {
+        "type": "object",
+        "properties": {
+          "snapshot_complete": { "type": "string" },
+          "forecast_complete": { "type": "string" },
+          "kpi_complete": { "type": "string" },
+          "anomaly_complete": { "type": "string" }
+        },
+        "required": ["snapshot_complete", "forecast_complete", "kpi_complete", "anomaly_complete"],
+        "additionalProperties": false
+      },
+      "key_findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "area": { "type": "string" },
+            "finding": { "type": "string" },
+            "priority": { "type": "string" }
+          },
+          "required": ["area", "finding", "priority"],
+          "additionalProperties": false
+        }
+      },
+      "recommended_actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "action": { "type": "string" },
+            "urgency": { "type": "string" },
+            "impact": { "type": "string" }
+          },
+          "required": ["action", "urgency", "impact"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["executive_summary", "analysis_status", "key_findings", "recommended_actions"],
+    "additionalProperties": false
+  }
+}

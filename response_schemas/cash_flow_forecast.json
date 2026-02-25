@@ -1,0 +1,77 @@
+{
+  "agent_name": "Cash Flow Forecast Agent",
+  "agent_id": "699e1ef0a79fe05f9bfd5091",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "forecast_summary": {
+        "type": "object",
+        "properties": {
+          "starting_cash": { "type": "string" },
+          "ending_cash_expected": { "type": "string" },
+          "ending_cash_best": { "type": "string" },
+          "ending_cash_worst": { "type": "string" },
+          "confidence_level": { "type": "string" },
+          "total_inflows": { "type": "string" },
+          "total_outflows": { "type": "string" }
+        },
+        "required": ["starting_cash", "ending_cash_expected", "ending_cash_best", "ending_cash_worst", "confidence_level", "total_inflows", "total_outflows"],
+        "additionalProperties": false
+      },
+      "weekly_projections": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "week": { "type": "string" },
+            "week_label": { "type": "string" },
+            "inflows": { "type": "string" },
+            "outflows": { "type": "string" },
+            "net_cash_flow": { "type": "string" },
+            "closing_balance": { "type": "string" },
+            "risk_flag": { "type": "string" }
+          },
+          "required": ["week", "week_label", "inflows", "outflows", "net_cash_flow", "closing_balance", "risk_flag"],
+          "additionalProperties": false
+        }
+      },
+      "liquidity_risks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "week": { "type": "string" },
+            "risk_description": { "type": "string" },
+            "severity": { "type": "string" },
+            "recommended_action": { "type": "string" }
+          },
+          "required": ["week", "risk_description", "severity", "recommended_action"],
+          "additionalProperties": false
+        }
+      },
+      "upcoming_obligations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "due_date": { "type": "string" },
+            "description": { "type": "string" },
+            "amount": { "type": "string" },
+            "priority": { "type": "string" }
+          },
+          "required": ["due_date", "description", "amount", "priority"],
+          "additionalProperties": false
+        }
+      },
+      "assumptions": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "required": ["forecast_summary", "weekly_projections", "liquidity_risks", "upcoming_obligations", "assumptions"],
+    "additionalProperties": false
+  }
+}

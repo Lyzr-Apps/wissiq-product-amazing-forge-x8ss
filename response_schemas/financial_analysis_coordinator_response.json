@@ -1,0 +1,54 @@
+{
+  "agent_name": "Financial Analysis Coordinator",
+  "agent_id": "699e1f09b4bdd3b00090d5e5",
+  "description": "Orchestrates all financial analysis sub-agents, routes uploaded CSV data to each specialist, and aggregates snapshot, forecast, KPI, and anomaly outputs into a unified dashboard result",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "executive_summary": "string",
+    "analysis_status": {
+      "snapshot_complete": "string",
+      "forecast_complete": "string",
+      "kpi_complete": "string",
+      "anomaly_complete": "string"
+    },
+    "key_findings": [
+      {
+        "area": "string",
+        "finding": "string",
+        "priority": "string"
+      }
+    ],
+    "recommended_actions": [
+      {
+        "action": "string",
+        "urgency": "string",
+        "impact": "string"
+      }
+    ]
+  },
+  "example_response": {
+    "executive_summary": "sample string",
+    "analysis_status": {
+      "snapshot_complete": "sample string",
+      "forecast_complete": "sample string",
+      "kpi_complete": "sample string",
+      "anomaly_complete": "sample string"
+    },
+    "key_findings": [
+      {
+        "area": "sample string",
+        "finding": "sample string",
+        "priority": "sample string"
+      }
+    ],
+    "recommended_actions": [
+      {
+        "action": "sample string",
+        "urgency": "sample string",
+        "impact": "sample string"
+      }
+    ]
+  }
+}

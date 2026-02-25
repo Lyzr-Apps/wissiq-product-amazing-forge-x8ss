@@ -1,0 +1,74 @@
+{
+  "agent_name": "Board Report Agent",
+  "agent_id": "699e1f2a03e99fdcfa03914c",
+  "description": "Compiles the latest financial analysis into a structured, professional board/investor-ready reporting package and generates a downloadable PDF",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "report_title": "string",
+    "generated_date": "string",
+    "executive_summary": "string",
+    "sections": [
+      {
+        "title": "string",
+        "content": "string",
+        "key_metrics": [
+          {
+            "label": "string",
+            "value": "string",
+            "status": "string"
+          }
+        ]
+      }
+    ],
+    "board_questions": [
+      "string"
+    ],
+    "next_steps": [
+      {
+        "action": "string",
+        "owner": "string",
+        "deadline": "string"
+      }
+    ],
+    "overall_assessment": "string"
+  },
+  "example_response": {
+    "report_title": "sample string",
+    "generated_date": "sample string",
+    "executive_summary": "sample string",
+    "sections": [
+      {
+        "title": "sample string",
+        "content": "sample string",
+        "key_metrics": [
+          {
+            "label": "sample string",
+            "value": "sample string",
+            "status": "sample string"
+          }
+        ]
+      }
+    ],
+    "board_questions": [
+      "sample string"
+    ],
+    "next_steps": [
+      {
+        "action": "sample string",
+        "owner": "sample string",
+        "deadline": "sample string"
+      }
+    ],
+    "overall_assessment": "sample string"
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/file.pdf"
+      }
+    ]
+  }
+}

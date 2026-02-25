@@ -1,0 +1,35 @@
+{
+  "agent_name": "Ask WissIQ Agent",
+  "agent_id": "699e1f2a4268325fd8a0c022",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "answer": { "type": "string" },
+      "data_points": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "metric": { "type": "string" },
+            "value": { "type": "string" },
+            "context": { "type": "string" }
+          },
+          "required": ["metric", "value", "context"],
+          "additionalProperties": false
+        }
+      },
+      "implications": { "type": "string" },
+      "follow_up_suggestions": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "confidence": { "type": "string" },
+      "data_source": { "type": "string" }
+    },
+    "required": ["answer", "data_points", "implications", "follow_up_suggestions", "confidence", "data_source"],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "agent_name": "KPI & Benchmark Agent",
+  "agent_id": "699e1ef0a79fe05f9bfd5093",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "kpis": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "value": { "type": "string" },
+            "previous_value": { "type": "string" },
+            "trend": { "type": "string" },
+            "industry_benchmark": { "type": "string" },
+            "status": { "type": "string" },
+            "category": { "type": "string" }
+          },
+          "required": ["name", "value", "previous_value", "trend", "industry_benchmark", "status", "category"],
+          "additionalProperties": false
+        }
+      },
+      "top_performers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "kpi_name": { "type": "string" },
+            "value": { "type": "string" },
+            "benchmark": { "type": "string" },
+            "insight": { "type": "string" }
+          },
+          "required": ["kpi_name", "value", "benchmark", "insight"],
+          "additionalProperties": false
+        }
+      },
+      "needs_improvement": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "kpi_name": { "type": "string" },
+            "value": { "type": "string" },
+            "benchmark": { "type": "string" },
+            "gap": { "type": "string" },
+            "recommendation": { "type": "string" }
+          },
+          "required": ["kpi_name", "value", "benchmark", "gap", "recommendation"],
+          "additionalProperties": false
+        }
+      },
+      "overall_score": { "type": "string" },
+      "overall_assessment": { "type": "string" }
+    },
+    "required": ["kpis", "top_performers", "needs_improvement", "overall_score", "overall_assessment"],
+    "additionalProperties": false
+  }
+}
