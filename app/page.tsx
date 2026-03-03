@@ -399,7 +399,34 @@ function extractAgentData(result: AIAgentResponse): any {
   if (!result?.success) return null
   const r = result?.response?.result
   if (r && typeof r === 'object' && Object.keys(r).length > 0) return r
-  return result?.response ?? null
+  // Handle text-only responses where result might be { text: "..." }
+  if (r && typeof r === 'string') return { text: r }
+  // Fallback: check if response itself has useful content
+  const resp = result?.response
+  if (resp?.message) return { text: resp.message, answer: resp.message }
+  return resp ?? null
+}
+
+function extractChatContent(data: any): string {
+  if (!data) return 'Analysis complete.'
+  // Try all common response field names in priority order
+  if (typeof data === 'string') return data
+  if (data.answer && typeof data.answer === 'string') return data.answer
+  if (data.text && typeof data.text === 'string') return data.text
+  if (data.message && typeof data.message === 'string') return data.message
+  if (data.response && typeof data.response === 'string') return data.response
+  if (data.answer_text && typeof data.answer_text === 'string') return data.answer_text
+  if (data.summary && typeof data.summary === 'string') return data.summary
+  if (data.content && typeof data.content === 'string') return data.content
+  if (data.result && typeof data.result === 'string') return data.result
+  // If data has nested result
+  if (data.result && typeof data.result === 'object') {
+    const nested = data.result
+    if (nested.answer) return nested.answer
+    if (nested.text) return nested.text
+    if (nested.message) return nested.message
+  }
+  return 'Analysis complete.'
 }
 
 // ============================================================
@@ -1496,17 +1523,37 @@ function AskWissIQTab({
       const result = await callAIAgent(msg, ASK_WISSIQ_ID)
       if (result?.success) {
         const data = extractAgentData(result)
+        const content = extractChatContent(data)
         setChatMessages((prev) => [...prev, {
           role: 'assistant',
-          content: data?.answer ?? data?.text ?? data?.message ?? 'Analysis complete.',
+          content,
           data: data ?? undefined,
         }])
       } else {
-        setChatError(result?.error ?? 'Failed to get response.')
-        setChatMessages((prev) => [...prev, { role: 'assistant', content: 'Sorry, I was unable to process your question. Please try again.' }])
+        // Try to extract any useful text from the raw response
+        let fallbackContent = ''
+        try {
+          const rawResp = result?.raw_response
+          if (rawResp && typeof rawResp === 'string') {
+            const parsed = JSON.parse(rawResp)
+            fallbackContent = parsed?.response ?? parsed?.message ?? parsed?.text ?? ''
+          }
+        } catch {}
+
+        const errorMsg = result?.error ?? result?.details ?? 'Failed to get response.'
+        setChatError(errorMsg)
+        setChatMessages((prev) => [...prev, {
+          role: 'assistant',
+          content: fallbackContent || `I was unable to process your question. ${errorMsg}`,
+        }])
       }
     } catch (err: any) {
-      setChatError(err?.message ?? 'Network error')
+      const errorMsg = err?.message ?? 'Network error'
+      setChatError(errorMsg)
+      setChatMessages((prev) => [...prev, {
+        role: 'assistant',
+        content: `An error occurred while processing your question: ${errorMsg}. Please try again.`,
+      }])
     } finally {
       setChatLoading(false)
       setActiveAgentId(null)
@@ -1545,7 +1592,7 @@ function AskWissIQTab({
                 <Card className="bg-card/80 border-border/50">
                   <CardContent className="p-4 space-y-3">
                     {/* Answer */}
-                    <div>{renderMarkdown(msg?.data?.answer ?? msg.content ?? '')}</div>
+                    <div>{renderMarkdown(extractChatContent(msg?.data) !== 'Analysis complete.' ? extractChatContent(msg?.data) : (msg.content || ''))}</div>
 
                     {/* Data Points */}
                     {Array.isArray(msg?.data?.data_points) && msg.data.data_points.length > 0 && (
@@ -1604,14 +1651,22 @@ function AskWissIQTab({
           <div className="flex justify-start">
             <div className="flex items-center gap-2 p-4 bg-card/80 rounded-lg border border-border/30">
               <FiLoader className="w-4 h-4 text-primary animate-spin" />
-              <span className="text-sm text-muted-foreground">WissIQ is analyzing...</span>
+              <span className="text-sm text-muted-foreground">WissIQ is analyzing your question... This may take a moment.</span>
             </div>
           </div>
         )}
       </div>
 
       {chatError && (
-        <div className="mb-2 p-2 rounded-lg text-xs bg-red-500/10 text-red-400 border border-red-500/20">{chatError}</div>
+        <div className="mb-2 p-3 rounded-lg text-xs bg-red-500/10 text-red-400 border border-red-500/20 flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <FiAlertCircle className="w-3.5 h-3.5 flex-shrink-0" />
+            <span>{chatError}</span>
+          </div>
+          <Button variant="ghost" size="sm" onClick={() => setChatError('')} className="h-6 px-2 text-xs text-red-400 hover:text-red-300">
+            <FiX className="w-3 h-3" />
+          </Button>
+        </div>
       )}
 
       {/* Input */}
